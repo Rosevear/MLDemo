@@ -1,8 +1,6 @@
 This repos is a simple example of a basic ML experiment.
 The original source code was taken from https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/, Jason Brownlee, on Friday July 26, 2019, and modified for its present purposes.
 
-
-
 #########Setting up an ML development environment with Anaconda
 
 Anaconda is both a package manager and a virtual environment manager. The former aspect allows for quick and easy installsupdating/management of hundreds of modules withi nthe python ecosystem.
@@ -45,14 +43,10 @@ python -c "import keras; print(keras.__version__)"
 10. Install sci-kit learn: scikit-learn is a traditional machine learning library, that also features a number of helpful functions for running ML experiments.: https://scikit-learn.org/stable/
 conda install -c anaconda scikit-learn 
 
-11. Va;idate sklearn installed
+11. Validate sklearn installed
 python -c "import sklearn; print(sklearn.__version__)"
 
 ######Runnning the experiment #######
+
 To clone the repository
 git clone 
-
-To run the experiment, type the following into the terminal from the route directory of the project
-ptyhon classify.py
-
-to remove enviorment conda env remove -n test_env
