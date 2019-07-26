@@ -11,12 +11,15 @@ Virtual environments serve as a way to isolate dependencies required for differe
 
 2. Open the anaconda prompt (which should be installed by the anaconda distribution) and type as below to find where conda is being called from. 
 Add the evealed path for the .exe file and Scripts folder to your PATH environment variable (if you want to be able to call conda from the terminal)
+
 where conda
+
 Result for my case: C:\ProgramData\Anaconda3\Scripts\conda.exe
 
 So, for example, I would add C:\ProgramData\Anaconda3\Scripts\ and  C:\ProgramData\Anaconda3\Scripts\conda.exe to my windows PATH variable
 
 3.  In order to use conda with powershell specifically one must must initialize the shell, and then restart it
+
 conda init powershell
 
 Other shells likely need to perform something similar, and attempting to use conda from a gien shell should result in a prompt to initialize for your respective shell
@@ -26,24 +29,31 @@ Other shells likely need to perform something similar, and attempting to use con
 conda create --name <you_env_name> python=3.6
 
 5. To activate the environment
+
 conda activate <your_env_name>
 
 6. To install  tensorflow: Tensorflow is an open source machine learning platform https://www.tensorflow.org/
+
 conda install tensorflow 
 
 7. Verify installation was successfull
+
 python -c "import tensorflow as tf; print(tf.__version__)"
 
 8. To install keras: Keras is a high level Deep Learning API that supports multiple backends (like Tensorflow) for performing the actual computations used in learning: https://keras.io/.
+
 conda install keras
 
 9. Verify keras installation
+
 python -c "import keras; print(keras.__version__)"
 
 10. Install sci-kit learn: scikit-learn is a traditional machine learning library, that also features a number of helpful functions for running ML experiments.: https://scikit-learn.org/stable/
+
 conda install -c anaconda scikit-learn 
 
 11. Validate sklearn installed
+
 python -c "import sklearn; print(sklearn.__version__)"
 
 ######Runnning the experiment #######
