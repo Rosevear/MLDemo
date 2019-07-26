@@ -1,5 +1,5 @@
-This repos is a simple example of a basic ML experiment.
-The original source code was taken from https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/, Jason Brownlee, on Friday July 26, 2019, and modified for its present purposes.
+This reps is a simple example of a basic ML experiment.
+The original source code was taken from https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/, by Jason Brownlee, on Friday July 26, 2019, and modified for its present purposes.
 
 #########Setting up an ML development environment with Anaconda
 
@@ -59,4 +59,9 @@ python -c "import sklearn; print(sklearn.__version__)"
 ######Runnning the experiment #######
 
 To clone the repository
-git clone 
+
+git clone https://github.com/Rosevear/MLDemo.git
+
+To run the experiment: run the command below from the root of the project (no main file is needed)
+
+python classify.py
