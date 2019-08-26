@@ -1,4 +1,4 @@
-This reps is a simple example of a basic ML experiment.
+This reps is a simple example of setting up an ML enviornment and getting a running experiment.
 The original source code was taken from https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/, by Jason Brownlee, on Friday July 26, 2019, and modified for its present purposes.
 
 #########Setting up an ML development environment with Anaconda
