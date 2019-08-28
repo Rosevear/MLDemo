@@ -56,6 +56,9 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 
     python -c "import sklearn; print(sklearn.__version__)"
 
+12 Install pandas: the de facto standard data analysis library in the python ecosystem: https://pandas.pydata.org/
+    conda install pandas
+
 ######Setting up VSCode########
 
 ######Setting up Jupyter Lab#######
@@ -72,6 +75,9 @@ Open up your shell AS an ADMINISTRATOR and run the following command below to in
 Any additional environments to the one specified in the above command must have their own kernel installed in order to be accesible to JupyterLab For instance, to access a Python environment, it must have the ipykernel package; e.g.
 
     conda install -n <other_environment> ipykernel
+
+There appears to be an issue with conda version 4.7 currently. See https://github.com/conda/conda/issues/8836
+If encountring this error try running conda init bash and restarting the shell as per https://github.com/conda/conda/issues/8836#issuecomment-514026318
 
 ######Runnning the experiment#######
 
