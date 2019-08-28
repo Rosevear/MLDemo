@@ -66,7 +66,7 @@ def train_network_with(network_creator, model_type):
 
 # fix random seed for reproducibility
 #Need to add backslashes to escape the slashes in the file path for Windows
-file_location = "C:\\Users\\cr89536\\Code\\ML\\datasets\\sonar.csv"
+file_location = "C:\\Users\\cr89536\\Code\\ML\\demo\\datasets\\sonar.csv"
 seed = 7
 numpy.random.seed(seed)
 
